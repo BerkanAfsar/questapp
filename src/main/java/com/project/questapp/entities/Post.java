@@ -17,7 +17,7 @@ public class Post {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false) // burada bir çok post un bir user ı olabilir diyoruz ve post tablosunda user_id kolonu ile user tablosunu ilişkilendir diyoruz
-    @OnDelete(action = OnDeleteAction.CASCADE) //user silinirse Post ları da sil
+    @OnDelete(action = OnDeleteAction.CASCADE) //user silinirse Post lari da sil
     @JsonIgnore
     User user;
 
