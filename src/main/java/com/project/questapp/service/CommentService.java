@@ -1,11 +1,11 @@
-package com.project.questapp.services;
+package com.project.questapp.service;
 
-import com.project.questapp.entities.Comment;
-import com.project.questapp.entities.Post;
-import com.project.questapp.entities.User;
-import com.project.questapp.repositories.CommentRepository;
-import com.project.questapp.requests.CommentCreateRequest;
-import com.project.questapp.requests.CommentUpdateRequest;
+import com.project.questapp.entity.Comment;
+import com.project.questapp.entity.Post;
+import com.project.questapp.entity.User;
+import com.project.questapp.repository.CommentRepository;
+import com.project.questapp.request.CommentCreateRequest;
+import com.project.questapp.request.CommentUpdateRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

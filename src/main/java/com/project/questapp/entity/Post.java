@@ -1,4 +1,4 @@
-package com.project.questapp.entities;
+package com.project.questapp.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;

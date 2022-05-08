@@ -1,10 +1,8 @@
-package com.project.questapp.repositories;
+package com.project.questapp.repository;
 
 
-import com.project.questapp.entities.Post;
+import com.project.questapp.entity.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.List;
 
 public interface PostRepository extends JpaRepository<Post,Long> {
 

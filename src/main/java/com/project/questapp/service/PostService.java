@@ -1,10 +1,10 @@
-package com.project.questapp.services;
+package com.project.questapp.service;
 
-import com.project.questapp.entities.Post;
-import com.project.questapp.entities.User;
-import com.project.questapp.repositories.PostRepository;
-import com.project.questapp.requests.PostCreateRequest;
-import com.project.questapp.requests.PostUpdateRequest;
+import com.project.questapp.entity.Post;
+import com.project.questapp.entity.User;
+import com.project.questapp.repository.PostRepository;
+import com.project.questapp.request.PostCreateRequest;
+import com.project.questapp.request.PostUpdateRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

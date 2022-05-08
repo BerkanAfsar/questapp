@@ -1,7 +1,7 @@
-package com.project.questapp.services;
+package com.project.questapp.service;
 
-import com.project.questapp.entities.User;
-import com.project.questapp.repositories.UserRepository;
+import com.project.questapp.entity.User;
+import com.project.questapp.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

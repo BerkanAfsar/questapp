@@ -1,7 +1,7 @@
-package com.project.questapp.controllers;
+package com.project.questapp.controller;
 
-import com.project.questapp.entities.User;
-import com.project.questapp.services.UserService;
+import com.project.questapp.entity.User;
+import com.project.questapp.service.UserService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

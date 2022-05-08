@@ -1,9 +1,9 @@
-package com.project.questapp.controllers;
+package com.project.questapp.controller;
 
-import com.project.questapp.entities.Comment;
-import com.project.questapp.requests.CommentCreateRequest;
-import com.project.questapp.requests.CommentUpdateRequest;
-import com.project.questapp.services.CommentService;
+import com.project.questapp.entity.Comment;
+import com.project.questapp.request.CommentCreateRequest;
+import com.project.questapp.request.CommentUpdateRequest;
+import com.project.questapp.service.CommentService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

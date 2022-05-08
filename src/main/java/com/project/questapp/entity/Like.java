@@ -1,4 +1,4 @@
-package com.project.questapp.entities;
+package com.project.questapp.entity;
 
 import lombok.Data;
 import org.hibernate.annotations.OnDelete;

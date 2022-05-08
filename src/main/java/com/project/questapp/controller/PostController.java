@@ -1,10 +1,9 @@
-package com.project.questapp.controllers;
+package com.project.questapp.controller;
 
-import com.project.questapp.entities.Post;
-import com.project.questapp.entities.User;
-import com.project.questapp.requests.PostCreateRequest;
-import com.project.questapp.requests.PostUpdateRequest;
-import com.project.questapp.services.PostService;
+import com.project.questapp.entity.Post;
+import com.project.questapp.request.PostCreateRequest;
+import com.project.questapp.request.PostUpdateRequest;
+import com.project.questapp.service.PostService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
