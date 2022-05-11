@@ -1,12 +1,9 @@
 package com.project.questapp.repository;
 
-
-import com.project.questapp.entity.Post;
+import com.project.questapp.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface PostRepository extends JpaRepository<Post,Long> {
-
-    //List<Post> findByUserId(Long userId);
+public interface StudentRepository extends JpaRepository<Student, Integer> {
 }
